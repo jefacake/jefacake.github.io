@@ -7,12 +7,6 @@ body {
     justify-items: center;
 }
 
-h6 {
-    background-color: white;
-    border: 10px;
-    border-style: solid;
-}
-
 .container0 {
     background-color: white;
     width: 500px;
@@ -25,6 +19,37 @@ h6 {
 
 .container0 img {
     width: 500px;
+    display: grid;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.container0 .desc1 {
+    grid-row: 2;
+    grid-column: 5;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    z-index: 1;
+    width: 90px;
+    height: 100px;
+    border: solid;
+}
+
+.container0 .desc2 {
+    grid-row: 4;
+    grid-column: 5;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    z-index: 1;
+    width: 90px;
+    height: 100px;
+    border: solid;
 }
 
 .container1 {
@@ -220,16 +245,16 @@ h6 {
 
 .container5 .panel14 {
     grid-row: 1;
-    grid-column: 5;
+    grid-column: 1;
     background-color: #539794;
-    width: 240px;
-    height: 250px;
+    width: 500px;
+    height: 600px;
     clip-path: inset(0% 0% 0% 0%);
 }
 
 .panel14 .bg {
     transform: translate(0px,0px);
-    width: 240px;
+    width: 500px;
 }
 
 .panel14 .layer1 {
@@ -345,6 +370,7 @@ h6 {
 }
 
 .control1 button {
+    font-family: 'Rubik',sans-serif;
     margin: 40px;
     border-radius: 10px;
     padding: 5px;
