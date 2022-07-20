@@ -370,6 +370,55 @@ body {
     grid-row: 6;
 }
 
+.container3 .dial10 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    transform: translate(40px,-30px);
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    width: 100px;
+    height: 100px;
+    border: solid;
+    grid-column: 2;
+    grid-row: 7;
+}
+
+.container3 .dial11 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    transform: translate(40px,30px);
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    width: 100px;
+    height: 150px;
+    border: solid;
+    grid-column: 1;
+    grid-row: 8;
+}
+
+.container3 .dial12 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+    transform: translate(20px,10px);
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    width: 120px;
+    height: 100px;
+    border: solid;
+    grid-column: 1;
+    grid-row: 10;
+}
+
+
 .container3 .panel7 {
     background-color: #d0a87c;
     grid-row: 2;
@@ -507,6 +556,16 @@ body {
     width: 140px;
 }
 
+.container3-1 {
+    background-color: white;
+    width: 500px;
+    height: 100px;
+    display: grid;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+    grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    clip-path: inset(0% 0% 0% 0%);
+}
+
 .container4 {
     background-color: white;
     width: 500px;
@@ -528,13 +587,14 @@ body {
     z-index: 1;
     background-color: white;
     width: 100px;
-    height: 80px;
+    height: 100px;
     border: solid;
 }
 
 .container4 .dial11 {
     font-family: 'Patrick Hand', cursive;
     text-align: center;
+    transform: translate(0,-30px);
     padding: 10px;
     font-size: 18px;
     grid-row: 5;
@@ -543,7 +603,7 @@ body {
     z-index: 1;
     background-color: white;
     width: 100px;
-    height: 80px;
+    height: 100px;
     border: solid;
 }
 
@@ -552,17 +612,32 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 18px;
-    grid-row: 10;
+    grid-row: 9;
     grid-column: 6;
     position: sticky;
     z-index: 1;
     background-color: white;
-    width: 100px;
-    height: 80px;
+    width: 120px;
+    height: 100px;
     border: solid;
 }
 
 .container4 .dial13 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    grid-row: 12;
+    grid-column: 2;
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    width: 110px;
+    height: 100px;
+    border: solid;
+}
+
+.container4 .dial14 {
     font-family: 'Patrick Hand', cursive;
     text-align: center;
     padding: 10px;
@@ -573,7 +648,22 @@ body {
     z-index: 1;
     background-color: white;
     width: 90px;
-    height: 100px;
+    height: 60px;
+    border: solid;
+}
+
+.container4 .dial15 {
+    font-family: 'Patrick Hand', cursive;
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+    grid-row: 18;
+    grid-column: 6;
+    position: sticky;
+    z-index: 1;
+    background-color: white;
+    width: 100px;
+    height: 80px;
     border: solid;
 }
 
@@ -675,13 +765,13 @@ body {
     text-align: center;
     padding: 10px;
     font-size: 18px;
-    grid-row: 10;
+    grid-row: 9;
     grid-column: 4;
     position: sticky;
     z-index: 1;
     background-color: white;
     width: 100px;
-    height: 80px;
+    height: 100px;
     border: solid;
 }
 
@@ -851,7 +941,7 @@ body {
     background-color: white;
     z-index: 1;
     width: 140px;
-    height: 60px;
+    height: 30px;
     border-radius: 100%;
     border: solid;
 }
@@ -2402,6 +2492,15 @@ body {
     width: 230px;
 }
 
+.container17 .eek {
+    grid-row: 11;
+    grid-column: 3;
+    z-index: 2;
+    width: 270px;
+    display: grid;
+    clip-path: inset(0% 0% 0% 0%);
+}
+
 .container17 .panel55 {
     background-color: white;
     grid-row: 12;
@@ -2537,8 +2636,8 @@ body {
     padding: 10px;
     background-color: white;
     z-index: 1;
-    width: 100px;
-    height: 110px;
+    width: 120px;
+    height: 105px;
     border: solid;
 }
 
@@ -3988,6 +4087,24 @@ body {
     clip-path: inset(0% 0% 0% 0%);
 }
 
+.container25 .slam {
+    grid-row: 1;
+    grid-column: 1;
+    transform: translate(10px,10px);
+    width: 150px;
+    z-index: 2;
+    display: grid;
+}
+
+.container25 .shock {
+    grid-row: 3;
+    grid-column: 3;
+    transform: translate(0px,40px);
+    width: 150px;
+    z-index: 2;
+    display: grid;
+}
+
 .container25 .dial25-1 {
     grid-row: 1;
     grid-column: 6;
@@ -4114,6 +4231,22 @@ body {
     width: 270px;
 }
 
+.container25 .pull {
+    grid-row: 7;
+    z-index: 1;
+    grid-column: 2;
+    width: 100px;
+    display: grid;
+}
+
+.container25 .pull2 {
+    grid-row: 8;
+    z-index: 1;
+    grid-column: 1;
+    width: 70px;
+    display: grid;
+}
+
 .container25 .panel93 {
     background-color: palegoldenrod;
     border-style: solid;
@@ -4141,6 +4274,13 @@ body {
     width: 180px;
 }
 
+.container25 .stomp {
+    grid-row: 9;
+    z-index: 1;
+    grid-column: 4;
+    width: 180px;
+    display: grid;
+}
 .container25 .panel94 {
     background-color: palegoldenrod;
     grid-row: 9;
@@ -4163,6 +4303,15 @@ body {
     grid-row: 1;
     grid-column: 3;
     width: 140px;
+}
+
+.container25 .dash {
+    grid-row: 13;
+    z-index: 1;
+    grid-column: 4;
+    width: 140px;
+    display: grid;
+    transform: translate(0,-70px);
 }
 
 .container25 .panel95 {
@@ -4341,6 +4490,51 @@ body {
     width: 200px;
     height: 100px;
     border-radius: 100%;
+    border: solid;
+}
+
+.container26 .desc26-1 {
+    grid-row: 4;
+    grid-column: 2;
+    transform: translate(0px,80px);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    z-index: 1;
+    width: 90px;
+    height: 80px;
+    border: solid;
+}
+
+.container26 .desc26-2 {
+    grid-row: 6;
+    grid-column: 6;
+    transform: translate(0px,80px);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    z-index: 1;
+    width: 90px;
+    height: 100px;
+    border: solid;
+}
+
+.container26 .desc26-3 {
+    grid-row: 9;
+    grid-column: 3;
+    transform: translate(0px,80px);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+    background-color: white;
+    z-index: 1;
+    width: 90px;
+    height: 80px;
     border: solid;
 }
 
@@ -4547,6 +4741,23 @@ body {
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-columns: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     clip-path: inset(0% 0% 0% 0%);
+}
+
+.container27 .dial27-1 {
+    grid-row: 3;
+    grid-column: 4;
+    transform: translate(0px,0px);
+    font-family: 'Patrick Hand', cursive;
+    font-size: 35px;
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    z-index: 2;
+    width: 150px;
+    height: 120px;
+    border-radius: 100%;
+    border: solid;
 }
 
 .container27 .panel105 {
@@ -5147,7 +5358,7 @@ body {
 }
 
 .panel4 img {
-    transform: translate(10px,-10px);
+    transform: translate(0px,-10px);
     width: 200px;
     transition: ease-in-out;
 }
@@ -5172,7 +5383,7 @@ body {
 }
 
 .panel6 img {
-    transform: translate(10px,-10px);
+    transform: translate(0px,-10px);
     width: 200px;
 }
 
