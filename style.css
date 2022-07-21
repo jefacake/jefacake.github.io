@@ -6347,6 +6347,17 @@ body {
     z-index: 2;
 }
 
+.container51 .end {
+    grid-row: 15;
+    grid-column: 1/10;
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 40px;
+    color: black;
+    transform: translate(0px,0px);
+    width: 500px;
+    z-index: 2;
+}
 
 .control1 {
     color: white;
